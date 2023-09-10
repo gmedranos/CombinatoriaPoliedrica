@@ -1,4 +1,5 @@
 
+
 # Funcao que subtrai um vetor de outro
 def sub_vet(a, b):
     n = len(a)
@@ -108,7 +109,8 @@ def print_poliedro(A, b):
             # Como nao é mais a primeira variavel a ser impressa, imprime no comeco um " + "
             elif A[i][j] != 0:
                 print(" + " + str(A[i][j]) + "x" + str(j + 1), end="")
-        print(" <= " + str(b[i]))
+        if not primeiro:
+            print(" <= " + str(b[i]))
     return
 
 # Pega as informacoes do proble

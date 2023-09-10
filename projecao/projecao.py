@@ -1,5 +1,3 @@
-
-
 # Funcao que subtrai um vetor de outro
 def sub_vet(a, b):
     n = len(a)
@@ -98,6 +96,10 @@ def is_empty(A, b):
 
 # Funcao que imprime o poliedro com base na formataçã da entrada
 def print_poliedro(A, b):
+    # O algoritimo pode produzir A, b sem nada. Nesse caso, o poliedro é o espaço todo, que pode ser representado por 
+    # 0 * x1 <= 0
+    if len(A) == 0: 
+        print("0x1 <= 0")
     # Percorre o poliedro
     for i in range(0, len(A)):
         primeiro = True

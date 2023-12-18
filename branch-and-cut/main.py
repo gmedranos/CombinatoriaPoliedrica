@@ -235,7 +235,7 @@ def corte_gomory_hu(model, where, grafo, terminais, vars, weight):
 
         # Verifica se a solucao é valida, se for nao faz nada
         # Se nao for acha um corte
-        if verifica_solucao(grafo, terminais):
+        if verifica_solucao(grafo_novo, terminais):
             return
         cria_cortes_steiner(grafo_novo, terminais, model, vars, 1)
     return

@@ -11,8 +11,6 @@ from networkx.algorithms import flow
 
 contador = 0
 
-teste1 = "C:\\Users\\gmedr\\Documents\\Estudos\\MC918\\branch-and-cut\\instancias\\C\\c08.stp"
-
 # Le a entrada dada por um path
 def read_input(path):
 

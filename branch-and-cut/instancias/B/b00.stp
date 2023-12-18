@@ -1,0 +1,35 @@
+33D32945 STP File, STP Format Version 1.0
+
+SECTION Comment
+Name    "B00"
+Creator "Gabriel Medrano"
+Remark  "Exemplo da net"
+END
+
+SECTION Graph
+Nodes 7
+Edges 13
+E 1 2 2
+E 1 5 6
+E 1 6 2
+E 1 7 3
+E 2 3 13
+E 2 7 4
+E 3 4 4
+E 3 7 2
+E 4 5 5
+E 4 7 3
+E 4 6 2
+E 5 6 5
+E 6 7 2
+END
+
+SECTION Terminals
+Terminals 4
+T 1
+T 2
+T 3
+T 4
+END
+
+EOF

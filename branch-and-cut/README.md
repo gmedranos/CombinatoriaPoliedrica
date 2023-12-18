@@ -5,4 +5,4 @@ a formatação dos arquivos da steinlib.zib.de.
 Além disso é necessario a instalação da biblioteca de grafos NetworkX. Para instala-la basta utilizar pip install NetworkX.
 
 ## Relatório
-O relatorio se encontra em: [link](resultados/C/c01.out)
+O relatorio se encontra em: [link](resultados/B/b01.out)

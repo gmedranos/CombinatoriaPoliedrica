@@ -1,0 +1,86 @@
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 19:56:56 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 189 rows, 126 columns and 2093 nonzeros
+Model fingerprint: 0x989f1113
+Variable types: 0 continuous, 126 integer (126 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 355.0000000
+Presolve removed 182 rows and 67 columns
+Presolve time: 0.00s
+Presolved: 7 rows, 59 columns, 23 nonzeros
+Variable types: 0 continuous, 59 integer (59 binary)
+Root relaxation presolved: 17 rows, 59 columns, 61 nonzeros
+
+
+Root relaxation: objective 4.400000e+01, 13 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   44.00000    0    -  355.00000   44.00000  87.6%     -    0s
+     0     0   54.50000    0    3  355.00000   54.50000  84.6%     -    0s
+     0     0   64.00000    0    -  355.00000   64.00000  82.0%     -    0s
+H    0     0                     149.0000000   66.00000  55.7%     -    0s
+     0     0   66.00000    0    4  149.00000   66.00000  55.7%     -    0s
+H    0     0                     121.0000000   71.40000  41.0%     -    0s
+     0     0   71.40000    0   17  121.00000   71.40000  41.0%     -    0s
+H    0     0                      93.0000000   73.62500  20.8%     -    0s
+     0     0   73.62500    0   12   93.00000   73.62500  20.8%     -    0s
+H    0     0                      85.0000000   74.83333  12.0%     -    0s
+     0     0   74.83333    0   23   85.00000   74.83333  12.0%     -    0s
+     0     0   76.00000    0    -   85.00000   76.00000  10.6%     -    0s
+     0     0   76.38462    0   20   85.00000   76.38462  10.1%     -    0s
+     0     0   76.97727    0   25   85.00000   76.97727  9.44%     -    0s
+     0     0   77.65202    0   32   85.00000   77.65202  8.64%     -    0s
+     0     0   77.99000    0   20   85.00000   77.99000  8.25%     -    0s
+     0     0   78.15426    0   28   85.00000   78.15426  8.05%     -    0s
+     0     0   79.05882    0   34   85.00000   79.05882  6.99%     -    0s
+     0     0   79.33333    0   27   85.00000   79.33333  6.67%     -    0s
+     0     0   80.32609    0   34   85.00000   80.32609  5.50%     -    0s
+H    0     0                      83.0000000   80.32609  3.22%     -    0s
+     0     0   80.33333    0   30   83.00000   80.33333  3.21%     -    0s
+     0     0   80.56205    0   29   83.00000   80.56205  2.94%     -    0s
+     0     0   80.59148    0   28   83.00000   80.59148  2.90%     -    0s
+     0     0   80.84858    0   29   83.00000   80.84858  2.59%     -    0s
+     0     0   80.84858    0   29   83.00000   80.84858  2.59%     -    0s
+     0     0   80.84858    0   15   83.00000   80.84858  2.59%     -    0s
+     0     0   80.84858    0   26   83.00000   80.84858  2.59%     -    0s
+     0     0   80.85013    0   25   83.00000   80.85013  2.59%     -    0s
+     0     0   80.85660    0   29   83.00000   80.85660  2.58%     -    0s
+     0     0   81.09606    0   30   83.00000   81.09606  2.29%     -    0s
+     0     0   81.49107    0   28   83.00000   81.49107  1.82%     -    0s
+     0     0   81.82018    0   24   83.00000   81.82018  1.42%     -    0s
+     0     0   81.82262    0   25   83.00000   81.82262  1.42%     -    0s
+     0     0     cutoff    0        83.00000   83.00000  0.00%     -    0s
+
+Cutting planes:
+  User: 6
+  Gomory: 2
+  Lift-and-project: 2
+  Flow cover: 6
+  Zero half: 59
+  RLT: 1
+  Lazy constraints: 23
+
+Explored 1 nodes (430 simplex iterations) in 0.77 seconds (0.23 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 6: 83 85 93 ... 355
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.300000000000e+01, best bound 8.300000000000e+01, gap 0.0000%
+
+User-callback calls 475, time in user-callback 0.50 sec

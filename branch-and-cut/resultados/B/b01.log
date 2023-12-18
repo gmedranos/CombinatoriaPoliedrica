@@ -1,0 +1,80 @@
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 19:56:35 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 185 rows, 126 columns and 1309 nonzeros
+Model fingerprint: 0xa86ba4bd
+Variable types: 0 continuous, 126 integer (126 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 359.0000000
+Presolve removed 181 rows and 68 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 58 columns, 14 nonzeros
+Variable types: 0 continuous, 58 integer (58 binary)
+Root relaxation presolved: 10 rows, 57 columns, 41 nonzeros
+
+
+Root relaxation: objective 5.200000e+01, 9 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   52.00000    0    -  359.00000   52.00000  85.5%     -    0s
+     0     0   62.00000    0    3  359.00000   62.00000  82.7%     -    0s
+H    0     0                     104.0000000   64.50000  38.0%     -    0s
+     0     0   64.50000    0    4  104.00000   64.50000  38.0%     -    0s
+H    0     0                     102.0000000   66.50000  34.8%     -    0s
+     0     0   66.50000    0    5  102.00000   66.50000  34.8%     -    0s
+H    0     0                      97.0000000   70.00000  27.8%     -    0s
+     0     0   70.00000    0    6   97.00000   70.00000  27.8%     -    0s
+H    0     0                      96.0000000   72.11111  24.9%     -    0s
+     0     0   72.11111    0   14   96.00000   72.11111  24.9%     -    0s
+     0     0   73.00000    0    -   96.00000   73.00000  24.0%     -    0s
+H    0     0                      84.0000000   73.16667  12.9%     -    0s
+     0     0   73.16667    0   16   84.00000   73.16667  12.9%     -    0s
+     0     0   74.37500    0   14   84.00000   74.37500  11.5%     -    0s
+     0     0   76.40000    0   13   84.00000   76.40000  9.05%     -    0s
+     0     0   78.00000    0   11   84.00000   78.00000  7.14%     -    0s
+     0     0   78.09756    0   16   84.00000   78.09756  7.03%     -    0s
+     0     0   79.12500    0   13   84.00000   79.12500  5.80%     -    0s
+H    0     0                      83.0000000   79.45283  4.27%     -    0s
+     0     0   79.45283    0   15   83.00000   79.45283  4.27%     -    0s
+     0     0   80.00000    0    -   83.00000   80.00000  3.61%     -    0s
+     0     0   80.07500    0   17   83.00000   80.07500  3.52%     -    0s
+     0     0   80.28571    0   12   83.00000   80.28571  3.27%     -    0s
+     0     0   80.81818    0   15   83.00000   80.81818  2.63%     -    0s
+     0     0   81.00000    0    9   83.00000   81.00000  2.41%     -    0s
+     0     0   81.03926    0   19   83.00000   81.03926  2.36%     -    0s
+     0     0   81.12473    0   18   83.00000   81.12473  2.26%     -    0s
+     0     0   81.12473    0   22   83.00000   81.12473  2.26%     -    0s
+     0     0   81.15687    0   19   83.00000   81.15687  2.22%     -    0s
+H    0     0                      82.0000000   81.15687  1.03%     -    0s
+     0     0   81.15687    0   19   82.00000   81.15687  1.03%     -    0s
+
+Cutting planes:
+  User: 10
+  Gomory: 3
+  Lift-and-project: 1
+  Flow cover: 1
+  Lazy constraints: 14
+
+Explored 1 nodes (364 simplex iterations) in 0.66 seconds (0.14 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 8: 82 83 84 ... 359
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.200000000000e+01, best bound 8.200000000000e+01, gap 0.0000%
+
+User-callback calls 459, time in user-callback 0.50 sec

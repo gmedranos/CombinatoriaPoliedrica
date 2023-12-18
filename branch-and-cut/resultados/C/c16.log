@@ -1,0 +1,423 @@
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:31:42 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Found heuristic solution: objective 30.0000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.07s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 6 rows, 12501 columns, 548 nonzeros
+
+
+Root relaxation: objective 5.000000e+00, 5 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.0000000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.27 seconds (0.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 30 68755 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+User-callback calls 252, time in user-callback 0.17 sec
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:32:46 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Found heuristic solution: objective 30.0000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.08s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 6 rows, 12501 columns, 548 nonzeros
+
+
+Root relaxation: objective 5.000000e+00, 5 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.0000000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.28 seconds (0.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 30 68755 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+User-callback calls 253, time in user-callback 0.17 sec
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:33:35 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Found heuristic solution: objective 30.0000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.08s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 6 rows, 12501 columns, 548 nonzeros
+
+
+Root relaxation: objective 5.000000e+00, 5 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.0000000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.29 seconds (0.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 30 68755 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+User-callback calls 252, time in user-callback 0.18 sec
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:33:54 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Found heuristic solution: objective 30.0000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.08s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 6 rows, 12501 columns, 548 nonzeros
+
+
+Root relaxation: objective 5.000000e+00, 5 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.0000000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.28 seconds (0.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 30 68755 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+User-callback calls 254, time in user-callback 0.17 sec
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:34:46 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.07s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 11 rows, 12501 columns, 1086 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   8.990036e+00   0.000000e+00      8s
+       6    5.0000000e+00   0.000000e+00   0.000000e+00      8s
+       6    5.0000000e+00   0.000000e+00   0.000000e+00      8s
+
+Root relaxation: objective 5.000000e+00, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.00000    0    - 68755.0000    5.00000   100%     -    8s
+     0     0    5.00000    0    - 68755.0000    5.00000   100%     -    8s
+     0     0    5.00000    0    - 68755.0000    5.00000   100%     -    8s
+     0     0    5.50000    0    4 68755.0000    5.50000   100%     -    8s
+H    0     0                    1512.0000000    5.50000   100%     -   13s
+H    0     0                      57.0000000    6.58333  88.5%     -   14s
+     0     0    6.58333    0   15   57.00000    6.58333  88.5%     -   14s
+H    0     0                      49.0000000    6.58333  86.6%     -   15s
+     0     2    6.58333    0   15   49.00000    6.58333  86.6%     -   15s
+H    1     4                      45.0000000    6.91667  84.6%  17.0   16s
+H    4     5                      44.0000000    8.20000  81.4%  18.0   18s
+H   10    10                      39.0000000    9.00000  76.9%  17.2   22s
+H   11    10                      32.0000000    9.00000  71.9%  17.0   23s
+H   14    16                      30.0000000    9.00000  70.0%  17.2   25s
+    25    28   10.00000    4   11   30.00000    9.20000  69.3%  18.1   30s
+H   29    28                      29.0000000    9.25000  68.1%  18.0   32s
+H   43    46                      17.0000000    9.40000  44.7%  16.4   39s
+H   45    46                      16.0000000    9.50000  40.6%  16.1   41s
+    55    61    9.64815    4   18   16.00000    9.50000  40.6%  17.8   46s
+    67    77    9.66667    9   20   16.00000    9.61111  39.9%  17.9   51s
+    83    95    9.68182   10   18   16.00000    9.66667  39.6%  16.8   59s
+   101   108   10.38571   10   26   16.00000    9.70000  39.4%  16.5   68s
+   114   114   10.35000    5   21   16.00000    9.90000  38.1%  18.7   75s
+   136   137   10.50000    6    8   16.00000   10.00000  37.5%  19.6  214s
+   143   146   10.70000    4   21   16.00000   10.00000  37.5%  21.3  217s
+   152   155   10.62500   14   11   16.00000   10.00000  37.5%  22.4  222s
+   161   164   10.50000    8    9   16.00000   10.00000  37.5%  22.7  227s
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:38:46 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:40:16 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Found heuristic solution: objective 30.0000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.08s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 6 rows, 12501 columns, 548 nonzeros
+
+
+Root relaxation: objective 5.000000e+00, 5 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.0000000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.28 seconds (0.11 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 30 68755 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+User-callback calls 251, time in user-callback 0.18 sec
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:40:30 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Found heuristic solution: objective 30.0000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.09s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 6 rows, 12501 columns, 548 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   5.125000e+00   0.000000e+00     64s
+       5    5.0000000e+00   0.000000e+00   0.000000e+00     64s
+       5    5.0000000e+00   0.000000e+00   0.000000e+00     64s
+
+Root relaxation: objective 5.000000e+00, 5 iterations, 0.01 seconds (0.00 work units)
+
+Gurobi 10.0.3 (win64) logging started Sun Dec 17 22:42:03 2023
+
+Set parameter LogFile to value "./resultados/log.log"
+Set parameter TimeLimit to value 600
+Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+
+CPU model: AMD Ryzen 5 5600 6-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Academic license 2433534 - for non-commercial use only - registered to gm___@gmail.com
+Optimize a model with 25505 rows, 25000 columns and 211726 nonzeros
+Model fingerprint: 0xdac855b6
+Variable types: 0 continuous, 25000 integer (25000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [5e-01, 5e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 68755.000000
+Presolve removed 25499 rows and 12499 columns
+Presolve time: 0.07s
+Presolved: 6 rows, 12501 columns, 548 nonzeros
+Variable types: 0 continuous, 12501 integer (12500 binary)
+Root relaxation presolved: 11 rows, 12501 columns, 1086 nonzeros
+
+
+Root relaxation: objective 5.000000e+00, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.00000    0    - 68755.0000    5.00000   100%     -    1s
+     0     0    5.00000    0    - 68755.0000    5.00000   100%     -    1s
+     0     0    5.00000    0    - 68755.0000    5.00000   100%     -    1s
+     0     0    5.50000    0    4 68755.0000    5.50000   100%     -    1s
+H    0     0                    1512.0000000    5.50000   100%     -    5s
+H    0     0                      57.0000000    6.58333  88.5%     -    6s
+     0     0    6.58333    0   15   57.00000    6.58333  88.5%     -    6s
+H    0     0                      49.0000000    6.58333  86.6%     -    6s
+     0     2    6.58333    0   15   49.00000    6.58333  86.6%     -    7s
+H    1     4                      45.0000000    6.91667  84.6%  17.0    8s
+H    4     5                      44.0000000    8.20000  81.4%  18.0    9s
+H   10    10                      39.0000000    9.00000  76.9%  17.2   12s
+H   11    10                      32.0000000    9.00000  71.9%  17.0   12s
+H   14    16                      30.0000000    9.00000  70.0%  17.2   14s
+    25    28   10.00000    4   11   30.00000    9.20000  69.3%  18.1   19s
+H   29    28                      29.0000000    9.25000  68.1%  18.0   21s
+H   43    46                      17.0000000    9.40000  44.7%  16.4   28s
+H   45    46                      16.0000000    9.50000  40.6%  16.1   29s
+    55    61    9.64815    4   18   16.00000    9.50000  40.6%  17.8   34s
+    67    77    9.66667    9   20   16.00000    9.61111  39.9%  17.9   40s
+    83    95    9.68182   10   18   16.00000    9.66667  39.6%  16.8   48s
+   101   108   10.38571   10   26   16.00000    9.70000  39.4%  16.5   56s
+   114   114   10.35000    5   21   16.00000    9.90000  38.1%  18.7   63s
+   120   130   10.00000    5    6   16.00000   10.00000  37.5%  19.2   67s
+   136   137   10.50000    6    8   16.00000   10.00000  37.5%  19.6  202s
+   143   146   10.70000    4   21   16.00000   10.00000  37.5%  21.3  206s
+   152   155   10.62500   14   11   16.00000   10.00000  37.5%  22.4  211s
+   161   164   10.50000    8    9   16.00000   10.00000  37.5%  22.7  216s
+H  170   173                      14.0000000   10.00000  28.6%  22.7  349s
+   179   179   10.50000   10    8   14.00000   10.00000  28.6%  24.3  354s
+   185   186   10.50000    7   19   14.00000   10.15385  27.5%  25.2  357s
+   192   194   11.00000    7   19   14.00000   10.16667  27.4%  26.6  361s
+   200   201   11.50000    7    7   14.00000   10.17857  27.3%  27.3  494s
+   207   207   10.50000    9    6   14.00000   10.18182  27.3%  27.9  497s
+   213   213   11.42857    7   18   14.00000   10.23077  26.9%  28.8  501s
+   219   222   10.41667   12   22   14.00000   10.28571  26.5%  29.5  505s
+H  220   222                      13.0000000   10.28571  20.9%  29.4  633s
+
+Cutting planes:
+  Lazy constraints: 948
+
+Explored 232 nodes (6972 simplex iterations) in 641.10 seconds (1.28 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 10: 13 14 16 ... 45
+
+Time limit reached
+Best objective 1.300000000000e+01, best bound 1.100000000000e+01, gap 15.3846%
+
+User-callback calls 1024, time in user-callback 638.97 sec
